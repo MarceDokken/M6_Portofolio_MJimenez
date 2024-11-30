@@ -1,11 +1,10 @@
 <template>
   <div id="app" class="app-container d-flex flex-column min-vh-100">
     <NavBar />
-    <main class="flex-grow-1">
-      <!-- Aquí se renderiza el contenido de las vistas -->
+    <main class="flex-grow-1">      
       <router-view />
     </main>
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
@@ -23,7 +22,7 @@ html, body {
 }
 
 #app {
-  min-height: 100vh; /* Cubre toda la altura de la pantalla */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
 }
